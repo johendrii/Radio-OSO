@@ -5,10 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navs from "./components/Navs";
 import Datek3 from "./components/Datek3";
 import Datek2 from "./components/Datek2";
+import Datek4 from "./components/Datek4";
+import Datek5 from "./components/Datek5";
 import Datek from "./components/Datek";
 
 function App() {
-  const navTittle = "KBA012 fc KBA040";
+  // const navTittle = "KBA012 fc KBA040";
 
   return (
     // <Container fluid className="App">
@@ -37,19 +39,25 @@ function App() {
     //   </footer>
     // </Container>
 
-    <Container className="App">
+    <Container fluid className="App">
       <Row>
-        <Col sm={3} style={{ position: "fixed", zIndex: 1 }}>
+        <Col
+          className="navsStyleApp"
+          sm={3}
+          style={{ position: "fixed", zIndex: 2 }}
+        >
           <h1 className="pejuang">
             Pejuang <Badge variant="secondary">OSO 5</Badge>
           </h1>
-          <Navs navTittle={navTittle} />
+          <Navs />
         </Col>
         <Col sm={3}></Col>
         <Col sm={12}>
           <Datek />
           <Datek2 />
           <Datek3 />
+          <Datek4 />
+          <Datek5 />
         </Col>
       </Row>
       <footer>

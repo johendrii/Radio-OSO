@@ -233,7 +233,7 @@ ${NeSiteid}`
     setNavTittle(`${NeSiteid} <> ${FeSiteid} Warranty`);
 
     setDatek(`
-
+    
 Mohon dibantu rekan NEC, terkait
 
 ${newDatek}
@@ -325,8 +325,8 @@ Detail Site:` + NeSiteid
   };
 
   return (
-    <Container fluid id="datek" style={{ marginBottom: "100px" }}>
-      <div className="navTittle">{navTittle}</div>
+    <Container fluid id="datek4" style={{ marginBottom: "100px" }}>
+      <div className="navTittle4">{navTittle}</div>
       <Row>
         <Col sm={4} className="impact">
           <Form.Group controlId="exampleForm.ControlTextarea1">

@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "target": "oso5",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

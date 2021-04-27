@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "oso5-9a0de"
+  },
+  "targets": {
+    "oso5-9a0de": {
+      "hosting": {
+        "oso5": [
+          "johendrioso"
+        ]
+      }
+    }
+  }
+}

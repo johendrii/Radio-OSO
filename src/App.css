@@ -3,8 +3,8 @@
   text-align: center;
 }
 
-.container {
-  margin-top: 10px;
+.App h5 {
+  font-size: 33px;
 }
 
 footer {
@@ -18,8 +18,53 @@ footer {
   position: absolute;
 }
 
+.navTittle {
+  position: fixed;
+  z-index: 1;
+  padding-top: 80px;
+  padding-left: 147px;
+}
+
+.navTittle2 {
+  position: fixed;
+  z-index: 1;
+  margin-top: -754px;
+  padding-left: 147px;
+}
+
+.navTittle3 {
+  position: fixed;
+  z-index: 1;
+  margin-top: -1587px;
+  padding-left: 147px;
+}
+
+.navTittle4 {
+  position: fixed;
+  z-index: 1;
+  margin-top: -2420px;
+  padding-left: 147px;
+}
+
+.navTittle5 {
+  position: fixed;
+  z-index: 1;
+  margin-top: -3252px;
+  padding-left: 147px;
+}
+
 .impact {
   padding-top: 300px;
+}
+
+.nav-link {
+  width: 42% !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nav-item {
+  max-height: 40px !important;
 }
 
 .datek h3 {
@@ -27,5 +72,113 @@ footer {
 }
 
 .textArea textarea {
-  font-size: 14px;
+  font-size: 13px;
+}
+
+@media (max-width: 800px) {
+  .App h1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* .nav {
+    max-height: 64px;
+  } */
+
+  .App h5 {
+    font-size: 20px;
+  }
+
+  .impact {
+    padding-top: 260px;
+  }
+
+  .navsStyle {
+    padding-left: 0 !important;
+  }
+
+  .navTittle {
+    position: fixed;
+    z-index: 1;
+    font-size: 12px;
+    padding-top: 45px;
+    padding-left: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 200px;
+    height: 72px;
+  }
+
+  .navTittle2 {
+    position: fixed;
+    z-index: 1;
+    font-size: 12px;
+    margin-top: -809px;
+    padding-left: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 200px;
+    height: 72px;
+  }
+
+  .navTittle3 {
+    position: fixed;
+    z-index: 1;
+    font-size: 12px;
+    margin-top: -1642px;
+    padding-left: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 200px;
+    height: 72px;
+  }
+
+  .navTittle4 {
+    position: fixed;
+    z-index: 1;
+    font-size: 12px;
+    margin-top: -2473px;
+    padding-left: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 200px;
+    height: 72px;
+  }
+
+  .navTittle5 {
+    position: fixed;
+    z-index: 1;
+    font-size: 12px;
+    margin-top: -3305px;
+    padding-left: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 200px;
+    height: 72px;
+  }
+
+  .navsStyleApp {
+    padding-left: 0 !important;
+  }
+
+  .nav-link {
+    width: 60% !important;
+    font-size: 13px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .nav-item {
+    max-height: 40px !important;
+  }
+
+  .textArea textarea {
+    font-size: 13px;
+  }
 }

@@ -23,16 +23,22 @@ const Header = ({ navTittle }) => {
     //   </Nav>
     // </Container>
 
-    <Container>
+    <Container className="navsStyle">
       <Nav justify variant="pills" className="flex-column">
         <Nav.Item>
-          <Nav.Link href="#datek">Datek {navTittle} OOW</Nav.Link>
+          <Nav.Link href="#datek">Datek 1</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#datek2">atek KBA001 OOW</Nav.Link>
+          <Nav.Link href="#datek2">Datek 2</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#datek3">atek KBA021 fc KBA001 Warranty</Nav.Link>
+          <Nav.Link href="#datek3">Datek 3</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="#datek4">Datek 4</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="#datek5">Datek 5</Nav.Link>
         </Nav.Item>
       </Nav>
     </Container>
